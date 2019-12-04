@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Menu",
+            "request": "launch",
+            "mainClass": "Telas.Menu",
+            "projectName": "Avaliacao3_c95d6feb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CadastrarProventos",
+            "request": "launch",
+            "mainClass": "CadastrarProventos",
+            "projectName": "Avaliacao3_c95d6feb"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - teste",
             "request": "launch",
             "mainClass": "teste"

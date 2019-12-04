@@ -1,9 +1,11 @@
+package Telas;
+
 import javax.swing.*;
 import java.awt.*;
 
-public class CadastrarProvento extends JFrame {
+public class CadastrarProventos extends JFrame {
     
-    public CadastrarProvento(){
+    public CadastrarProventos(){
         
         super("Cadastrar Proventos");
         JLabel labelPessoa = new JLabel("Pessoa:");
@@ -59,7 +61,7 @@ public class CadastrarProvento extends JFrame {
     }
 
     public static void main(String[] args) {
-        CadastrarProvento consulta = new CadastrarProvento();
+        CadastrarProventos consulta = new CadastrarProventos();
         
         
     }

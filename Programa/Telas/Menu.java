@@ -1,3 +1,5 @@
+package Telas;
+
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.ActionListener;
@@ -41,13 +43,13 @@ public class Menu extends JFrame {
                 } else if(e.getSource() == CadastrarDivida){
                     new CadastrarDivida();
                 } else if(e.getSource() == CadastrarProventos){
-                    new CadastrarProventoss();
+                    new CadastrarProventos();
                 } else if(e.getSource() == C_Pessoas){
-                    new C_Pessoass();
+                    new C_Pessoas();
                 } else if(e.getSource() == C_Divida){
                     new C_Divida();
                 } else if(e.getSource() == C_Proventos){
-                    new C_Proventoss();
+                    new C_Proventos();
                 }
             }
         };
