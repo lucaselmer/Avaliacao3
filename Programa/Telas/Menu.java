@@ -35,7 +35,7 @@ public class Menu extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(250,300);
         this.setVisible(true);
-//chamar as outras telas
+        //chamar as outras telas
         ActionListener handlerAction = new ActionListener() {
             public void actionPerformed(ActionEvent e){
                 if (e.getSource() == CadastrarPessoa){

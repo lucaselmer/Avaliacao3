@@ -5,11 +5,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException; 
 
 public class Conexao {
-    public Connection getConnection() {
+    public static Connection getConnection() {
         try {
-            return DriverManager.getConnection("jdbc:mysql://localhost:3306/contas?useTimezone=true&serverTimezone=UTC","root","");
-        }
-        catch(final SQLException excecao) {
+            return DriverManager.getConnection("jdbc:mysql://localhost:3306/contas?useTimezone=true&serverTimezone=UTC",
+                    "root", "");
+        } catch (final SQLException excecao) {
             throw new RuntimeException(excecao);
         }
 

@@ -23,14 +23,13 @@ public class UsuarioDAO {
     }
 
     public void adicionaPessoa(final Programa.Pessoas pessoa) {
-        final String sql = "INSERT INTO pessoas (idPessoa,nomePessoa,EmailPessoa) VALUES (?,?,?)";
+        final String sql = "INSERT INTO pessoas (nomePessoa,EmailPessoa) VALUES (?,?)";
         try {
             final PreparedStatement stmt = connection.prepareStatement(sql);
-            stmt.setInt(1, pessoa.getIdPessoa());
             stmt.setString(2, pessoa.getNomePessoa());
             stmt.setString(3, pessoa.getEmailPessoa());
 
-            // stmt.execute();
+            // stmt.execute();  verificar se precisa com profesor ******
             
         } catch (final SQLException u) {
             throw new RuntimeException(u);

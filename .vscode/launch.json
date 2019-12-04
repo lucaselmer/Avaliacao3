@@ -2,6 +2,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Conexao",
+            "request": "launch",
+            "mainClass": "Programa.Conexao"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CadastrarPessoa",
+            "request": "launch",
+            "mainClass": "Telas.CadastrarPessoa"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Menu",
+            "request": "launch",
+            "mainClass": "Telas.Menu"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Menu",
             "request": "launch",
             "mainClass": "Telas.Menu",

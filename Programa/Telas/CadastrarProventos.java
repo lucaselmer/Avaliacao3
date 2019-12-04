@@ -1,13 +1,14 @@
 package Telas;
 
 import javax.swing.*;
+import javax.swing.text.TextAction;
+
+import Programa.Proventos;
+
 import java.awt.*;
 
 public class CadastrarProventos extends JFrame {
-    
-    public CadastrarProventos(){
-        
-        super("Cadastrar Proventos");
+
         JLabel labelPessoa = new JLabel("Pessoa:");
         JLabel labelAno = new JLabel("Ano:");
         JLabel labelMes = new JLabel("Mês:");
@@ -22,6 +23,11 @@ public class CadastrarProventos extends JFrame {
 
         JButton button1 = new JButton("Gravar");
         JComboBox mes = new JComboBox();
+
+    public CadastrarProventos(){
+        
+        super("Cadastrar Proventos");
+       
 
         Container pane = this.getContentPane();
         pane.setLayout(new FlowLayout(FlowLayout.CENTER));
@@ -59,6 +65,19 @@ public class CadastrarProventos extends JFrame {
         setSize(250,270);
         setVisible(true);
     }
+    public void cadastrarProventosNovo(){      //método
+        
+        Programa.Proventos proventos = new Proventos();
+        proventos.setIdConta(Integer.parseInt(textPessoa.getText()));
+        proventos.setIdConta(Integer.parseInt(labelPessoa.getLabel()));
+        proventos.setAno(Integer.parseInt(textAno.getText()));
+        proventos.setAno(Integer.parseInt(labelAno.getLabel()));
+        proventos.setValor(Integer.parseInt(textValor.getText()));
+        proventos.setValor(Integer.parseInt(labelValor.getLabel()));
+
+
+    }
+
 
     public static void main(String[] args) {
         CadastrarProventos consulta = new CadastrarProventos();

@@ -1,11 +1,8 @@
 package Telas;
 
 import javax.swing.*;
-
 import Usuario.UsuarioDAO;
-
 import java.awt.*;
-
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
@@ -16,7 +13,7 @@ public class CadastrarPessoa extends JFrame {
     
     public CadastrarPessoa(){
         
-        super("Cadastrar Proventos");
+        super("Cadastrar Pessoas");
         JLabel labelPessoa = new JLabel("Nome:");
         JLabel labelEmail = new JLabel("E-mail:");
 
@@ -51,18 +48,13 @@ public class CadastrarPessoa extends JFrame {
         setVisible(true);
     }
 
-    public void cadastrarPessoaNova() { //Método que vai chamar a classe que grava pessoa no banco
-        //Esse método vai:
-        //Criar um objeto do tipo Pessoas
-        Programa.Pessoas pessoa = new Programa.Pessoas();
+    public void cadastrarPessoaNova() { //Método 
+       
+        Programa.Pessoas pessoa = new Programa.Pessoas(); //Criar um objeto do tipo Pessoas
         pessoa.setNomePessoa(textPessoa.getText());
         pessoa.setEmailPessoa(textEmail.getText());
-
-        //Instanciar a classe para gravação em banco
-        UsuarioDAO usuarioDao = new UsuarioDAO();
-
-        //Chamar o método que insere em banco
-        usuarioDao.adicionaPessoa(pessoa);
+        UsuarioDAO usuarioDao = new UsuarioDAO(); //Instanciar a classe 
+        usuarioDao.adicionaPessoa(pessoa); //Chamar o método que insere em banco
 
     }
 
