@@ -1,0 +1,90 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Conexao",
+            "request": "launch",
+            "mainClass": "Programa.Conexao"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CadastrarPessoa",
+            "request": "launch",
+            "mainClass": "Telas.CadastrarPessoa"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Menu",
+            "request": "launch",
+            "mainClass": "Telas.Menu"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Menu",
+            "request": "launch",
+            "mainClass": "Telas.Menu",
+            "projectName": "Avaliacao3_c95d6feb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CadastrarProventos",
+            "request": "launch",
+            "mainClass": "CadastrarProventos",
+            "projectName": "Avaliacao3_c95d6feb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - teste",
+            "request": "launch",
+            "mainClass": "teste"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Menu",
+            "request": "launch",
+            "mainClass": "Menu"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CadastrarProvento",
+            "request": "launch",
+            "mainClass": "CadastrarProvento"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CadastrarPessoa",
+            "request": "launch",
+            "mainClass": "CadastrarPessoa"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CadastrarDivida",
+            "request": "launch",
+            "mainClass": "CadastrarDivida"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JOptionPaneExemplo",
+            "request": "launch",
+            "mainClass": "JOptionPaneExemplo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExemploFrame",
+            "request": "launch",
+            "mainClass": "ExemploFrame"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JComboBoxExemplo",
+            "request": "launch",
+            "mainClass": "JComboBoxExemplo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JButtonAvaliacao",
+            "request": "launch",
+            "mainClass": "JButtonAvaliacao"
+        }
+    ]
+}
